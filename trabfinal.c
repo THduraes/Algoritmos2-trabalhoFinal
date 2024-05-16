@@ -4,6 +4,8 @@
 #include <windows.h>
 int func_menu(int *num);
 int func_menu_secund(int *num, char menu[]);
+int listas_menu(int *num);
+
 
 typedef struct
 {
@@ -39,6 +41,7 @@ typedef struct
 
 int func_menu(int *num){
   int aux = 0;
+  
   printf("MENU PRINCIPAL \n");
   printf("1- inclusao, alteracao, consulta, delecao do cliente\n");
   printf("2- inclusao, alteracao, consulta, delecao de Pizza\n");
